@@ -7,11 +7,27 @@ This repository holds **Macbar releases only**. Download the latest `.dmg` from
 
 ## Install
 
+**Easiest: one line, no security prompts.** Open **Terminal** (press ⌘ Space, type
+Terminal, press Return), paste this and press Return:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/rahulornob/macbar-releases/main/install.sh | bash
+```
+
+It downloads the latest Macbar, checks it is signed by Macbar, installs it into
+Applications and opens it. Run the same line again any time to reinstall.
+
+**Or with the disk image:**
+
 1. Open the `.dmg` and drag **Macbar** into **Applications**.
 2. Open Macbar. macOS says it is from an unidentified developer, because Macbar
    is free and not notarized by Apple.
 3. Open **System Settings → Privacy & Security**, scroll down and click
    **Open Anyway** next to Macbar. You only do this once.
+
+On first launch Macbar shows a short setup that asks for every permission its
+features use, all in one place. Right-click the island and choose
+**Permissions…** to see it again.
 
 ## Updates
 
